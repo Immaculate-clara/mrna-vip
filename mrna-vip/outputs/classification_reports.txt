@@ -1,0 +1,27 @@
+=== logistic_regression ===
+              precision    recall  f1-score   support
+
+    Low risk       0.71      0.76      0.74        51
+   High risk       0.73      0.67      0.70        49
+
+    accuracy                           0.72       100
+   macro avg       0.72      0.72      0.72       100
+weighted avg       0.72      0.72      0.72       100
+
+Confusion matrix:
+[[39 12]
+ [16 33]]
+
+=== random_forest ===
+              precision    recall  f1-score   support
+
+    Low risk       0.65      0.67      0.66        51
+   High risk       0.65      0.63      0.64        49
+
+    accuracy                           0.65       100
+   macro avg       0.65      0.65      0.65       100
+weighted avg       0.65      0.65      0.65       100
+
+Confusion matrix:
+[[34 17]
+ [18 31]]

@@ -1,0 +1,9 @@
+# Optional extras for the "full" PRD stack. Install on top of requirements.txt:
+#   pip install -r requirements.txt -r requirements-genai.txt
+# The pipeline automatically falls back to offline equivalents when these are absent.
+python-dotenv>=1.0
+chromadb>=0.4
+sentence-transformers>=2.2
+langchain>=0.1
+langchain-openai>=0.0.5
+langchain-anthropic>=0.1

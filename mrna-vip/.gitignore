@@ -1,0 +1,14 @@
+.env
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+outputs/chroma_store/
+.DS_Store
+# Patient data - excluded until verified
+data/patient_records.csv
+data/patient_records_clean.csv
+outputs/reports/
+outputs/test_predictions.csv
